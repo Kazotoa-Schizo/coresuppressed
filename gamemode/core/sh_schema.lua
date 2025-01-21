@@ -76,7 +76,7 @@ function impulse.Schema.Boot()
         impulse.Schema.LoadPlugin(SCHEMA_NAME.."/plugins/"..dir, dir)
     end
 
-    GM.Name = "Silvia: "..impulse.Config.SchemaName
+    GM.Name = "Suppressed: "..impulse.Config.SchemaName
 
     timer.Simple(1, function() -- hackyfix needs changing to something reliable
         hook.Run("OnSchemaLoaded")
